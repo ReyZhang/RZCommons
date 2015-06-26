@@ -19,3 +19,4 @@
 #import "UIViewController+storyboard.h"
 #import "UIView+frame.h"
 #import "UIWebView+util.h"
+#import "UITabBarController+HideTabBar.h"

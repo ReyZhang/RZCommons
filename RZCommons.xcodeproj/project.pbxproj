@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F29E031E1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F29E031D1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.m */; };
+		F29E031F1B3CF00C00FA5E8A /* UITabBarController+HideTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F29E031C1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.h */; };
 		F29EFCB21B3A48A200FA5E8A /* RZCommons.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F29EFCB11B3A48A200FA5E8A /* RZCommons.h */; };
 		F29EFCBA1B3A48A200FA5E8A /* libRZCommons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29EFCAE1B3A48A200FA5E8A /* libRZCommons.a */; };
 		F29EFD231B3A4E4200FA5E8A /* NSArray+UtilArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F29EFD0F1B3A4E4200FA5E8A /* NSArray+UtilArray.m */; };
@@ -51,6 +53,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F29E031F1B3CF00C00FA5E8A /* UITabBarController+HideTabBar.h in CopyFiles */,
 				F29EFD331B3A4EF700FA5E8A /* NSArray+UtilArray.h in CopyFiles */,
 				F29EFD341B3A4EF700FA5E8A /* NSFileManager+Utils.h in CopyFiles */,
 				F29EFD351B3A4EF700FA5E8A /* NSString+TrimmingAdditions.h in CopyFiles */,
@@ -68,6 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F29E031C1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+HideTabBar.h"; sourceTree = "<group>"; };
+		F29E031D1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+HideTabBar.m"; sourceTree = "<group>"; };
 		F29EFCAE1B3A48A200FA5E8A /* libRZCommons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRZCommons.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29EFCB11B3A48A200FA5E8A /* RZCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZCommons.h; sourceTree = "<group>"; };
 		F29EFCB91B3A48A200FA5E8A /* RZCommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZCommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +174,8 @@
 		F29EFD0D1B3A4E4200FA5E8A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				F29E031C1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.h */,
+				F29E031D1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.m */,
 				F29EFD0E1B3A4E4200FA5E8A /* NSArray+UtilArray.h */,
 				F29EFD0F1B3A4E4200FA5E8A /* NSArray+UtilArray.m */,
 				F29EFD101B3A4E4200FA5E8A /* NSFileManager+Utils.h */,
@@ -291,6 +298,7 @@
 				F29EFD2B1B3A4E4200FA5E8A /* AttributtedStringBuilder.m in Sources */,
 				F29EFD281B3A4E4200FA5E8A /* UIView+frame.m in Sources */,
 				F29EFD2C1B3A4E4200FA5E8A /* UtilAlert.m in Sources */,
+				F29E031E1B3CEFE700FA5E8A /* UITabBarController+HideTabBar.m in Sources */,
 				F29EFD261B3A4E4200FA5E8A /* NSString+UtilString.m in Sources */,
 				F29EFD251B3A4E4200FA5E8A /* NSString+TrimmingAdditions.m in Sources */,
 				F29EFD2A1B3A4E4200FA5E8A /* UIWebView+util.m in Sources */,
@@ -466,6 +474,7 @@
 				F29EFCC41B3A48A200FA5E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F29EFCC51B3A48A200FA5E8A /* Build configuration list for PBXNativeTarget "RZCommonsTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +483,7 @@
 				F29EFCC71B3A48A200FA5E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
